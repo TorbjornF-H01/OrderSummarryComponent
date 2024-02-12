@@ -35,9 +35,14 @@ body {
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    /* padding: 20px; */
 }
 
+.img img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 
 .text {
     display: flex;
