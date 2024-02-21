@@ -26,35 +26,44 @@
 </head>
 
 <body>
+  <!-- flexbox container -->
   <div class="container">
+    <!-- topimage -->
+    <img src="./images/illustration-hero.svg" alt="girl music">
     <div class="bigbox">
-      <div class="img"> <img src="/images/illustration-hero.svg" alt="girl music"></div>
-      <div class="text">
-        <h1>Order Summary</h1>
-        <p>You can now listen to millions of songs, audiobooks, and podcasts on any
-          device anywhere you like!</p>
-      </div>
-      <div class="subcribtion-box"></div>
-      <button class="sub"> <img src="/images/icon-music.svg">
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p></img> <a href="@change">Change</a>
-      </button>
-      <div class="payment"></div>
-      <div class="paymentbutton">
-        <button>Proceed to Payment</button>
-      </div>
-
-      <div class="cancel order">
-        <button>Cancel Order</button>
-      </div>
     </div>
+    <div class="box child1">
+      <!-- Content box -->
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
+    </div>
+    <div class="box child2">
+      <!-- content box -->
+      <img src="./images/icon-music.svg" alt="icon music">
+      <h2>Annual Plan</h2>
+      <p>$59.99/year</p>
+      <a href="@change">Change</a>
 
-    <footer>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">TorbjornF-H01</a>.
-      </div>
-    </footer>
+
+    </div>
+    <!-- content box -->
+    <div class="box child3">
+      <button class="Payment">Proceed to Payment</button>
+    </div>
+    <div class="box child4">
+      <!-- content box -->
+      <a class="dorder" href="@Cancel">Cancel Order</a>
+    </div>
+  </div>
+
+  <footer>
+    <!-- footer  -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">TorbjornF-H01</a>.
+    </div>
+  </footer>
 </body>
 
 </html>
