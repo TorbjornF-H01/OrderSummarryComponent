@@ -60,33 +60,26 @@ body {
     color: hsl(231, 11%, 40%);
     font-size: 16px;
     margin-top: 10px;
+
 }
 
 .child2 {
-
     background: #eff6ff;
     border-radius: 8px;
-    padding: 1rem;
+    padding: 10px 40px 10px;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
-    align-items: center;
-
 }
 
 .box.child2 img {
-
     width: 32px;
     height: 32px;
     margin-right: 0.5rem;
-
-
 }
 
 .box.child2 h2 {
-
     color: #1c1e21;
     font-weight: 600;
     font-size: 16px;
@@ -104,8 +97,14 @@ body {
     border: none;
     font-size: 0.875rem;
     cursor: pointer;
-    padding: 0;
+    padding: 20px;
     margin-top: 0.5rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
