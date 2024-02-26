@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    Flex-direction: column
+}
+
 body {
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
@@ -17,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
+    Flex-direction: column
 }
 
 .container {
